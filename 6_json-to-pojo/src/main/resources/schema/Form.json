@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "javaType": "tr.example.data.Form",
+  "properties": {
+    "User": {
+        "$ref": "User.json"
+    },
+    "city": {"type": "string"},
+    "street": {"type": "string"},
+    "addressType": {"type": "string"},
+    "phoneList": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

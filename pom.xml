@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Kafka_RTSP_Course</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>1_producer</module>
+        <module>2_transaction</module>
+        <module>3_consumer</module>
+        <module>4_basic-stream</module>
+        <module>5_stream-topology</module>
+        <module>6_json-to-pojo</module>
+        <module>7_avro-to-pojo</module>
+        <module>8_state-store</module>
+        <module>9_KTable</module>
+        <module>10_word_count</module>
+        <module>11_aggregation</module>
+        <module>12_windowed</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
+
+</project>

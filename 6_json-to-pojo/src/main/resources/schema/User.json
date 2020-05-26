@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "javaType": "tr.example.data.User",
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "surname": {"type": "string"}
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "record",
+    "namespace": "tr.example.data",
+    "name": "User",
+    "fields": [
+         {"name": "id", "type": "string"},
+         {"name": "name", "type": "string"},
+         {"name": "surname",  "type": "string"}
+    ]
+}

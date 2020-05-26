@@ -1,0 +1,12 @@
+{
+    "type": "record",
+    "namespace": "tr.example.data",
+    "name": "Form",
+    "fields": [
+         {"name": "user",  "type": "User"},
+         {"name": "city",  "type": "string"},
+         {"name": "street",  "type": "string"},
+         {"name": "addressType", "type": "string"},
+         {"name": "phoneList", "type": {"type": "array", "items": "string"}}
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "javaType": "tr.example.data.Contact",
+  "properties": {
+    "type": {"type": "string"},
+    "contact_info": {"type": "string"}
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "record",
+    "namespace": "tr.example.data",
+    "name": "Contact",
+    "fields": [
+         {"name": "type", "type": "string"},
+         {"name": "contact_info", "type": "string"}
+    ]
+}

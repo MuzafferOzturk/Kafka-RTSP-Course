@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "javaType": "tr.example.data.Address",
+  "properties": {
+    "userId": {"type": "string"},
+    "type": {"type": "string"},
+    "surname": {"type": "string"},
+    "city": {"type": "string"},
+    "street": {"type": "string"}
+  }
+}
